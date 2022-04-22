@@ -21,11 +21,14 @@ const content = {
 export default function MathematicsProject(props) {
 	return <Project projectName={props.projectName}
 		title={content.title}
+		github={content.github}
 		video={content.video}
 		placeholder={Yahtzee}
 		alt={content.alt}
 		overview={content.overview}
 		about={content.about}
 		thoughts={content.thoughts}
+		showVideo={props.showVideo}
+		toggle={props.toggle}
 	/>
 }

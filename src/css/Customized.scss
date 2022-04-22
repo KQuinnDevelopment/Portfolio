@@ -1,0 +1,30 @@
+// Override default variables before the import
+$body-bg: #f9faf9;
+$link-color: #5fa663;
+$link-hover-color: #e99640;
+
+
+// colours - http://colormind.io/bootstrap/ & https://rgb.to/
+$primary: #8b9090; // "oslo grey" - main brand
+$secondary: #8e8d85; // "natural grey" - dark accents
+$success: #5fa663; // "aqua forest"
+$info: #3e4957; // dark
+$warning: #e99640; // "Jaffa"
+$danger: #f44336; // "pomegranate"
+$light: #f9faf9; // "grey nurse" - light shades
+$dark: #3e4957; // "river bed" - dark shades
+
+$theme-colors: ( 
+    "primary": #8b9090, // "oslo grey" - main brand
+    "secondary": #8e8d85, // "natural grey" - dark accents
+    "success": #5fa663, // "aqua forest"
+    "info": #3e4957, // dark
+    "warning": #e99640, // "Jaffa"
+    "danger": #f44336, // "pomegranate"
+    "light": #f9faf9, // "grey nurse" - light shades
+    "dark": #3e4957, // "river bed" - dark shades
+    "accent": #99aeaa // "pewter" - light accents
+);
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-    Collapse, Nav, Navbar, NavbarBrand, NavbarText, NavbarToggler, NavItem, NavLink,
+    Collapse, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink,
     UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem
 } from 'reactstrap';
 import { Link } from 'react-router-dom';
@@ -35,23 +35,22 @@ export class NavMenu extends Component {
                             </NavItem>
                             <UncontrolledDropdown inNavbar nav>
                                 <DropdownToggle caret nav>Projects</DropdownToggle>
-                                <DropdownMenu end dark>
+                                <DropdownMenu end className="bg-primary">
                                     <DropdownItem>
-                                        <NavLink tag={Link} to="/react">React</NavLink>
+                                        <NavLink tag={Link} to="/react" className="text-dark">React</NavLink>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        <NavLink tag={Link} to="/mathematics">Mathematics</NavLink>
+                                        <NavLink tag={Link} to="/mathematics" className="text-dark">Mathematics</NavLink>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        <NavLink tag={Link} to="/coop">Co-Op</NavLink>
+                                        <NavLink tag={Link} to="/coop" className="text-dark">Co-Op</NavLink>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        <NavLink tag={Link} to="/capstone">Capstone</NavLink>
+                                        <NavLink tag={Link} to="/capstone" className="text-dark">Capstone</NavLink>
                                     </DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                         </Nav>
-                        <NavbarText>Welcome, {this.props.userName}!</NavbarText>
                     </Collapse>
                 </Navbar>
             </div>

@@ -13,6 +13,7 @@ const content = {
 export default function ParallelProject(props) {
 	return <Project projectName={props.projectName}
 		title={content.title}
+		github={content.github}
 		video={content.video}
 		placeholder={content.placeholder}
 		alt={content.alt}
