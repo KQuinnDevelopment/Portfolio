@@ -4,6 +4,7 @@ import { Container } from 'reactstrap';
 import { NavMenu } from './components/NavMenu';
 import { Home } from './components/Home';
 import { About } from './components/About';
+import { PageTracking } from './useTracking.js';
 
 const ReactProject = lazy(() => import('./components/projects/reactProject'));
 const MathematicsProject = lazy(() => import('./components/projects/mathematicsProject'));
@@ -27,13 +28,15 @@ export class App extends Component {
         this.handleVideoToggle = this.handleVideoToggle.bind(this);
     }
 
+    //PageTracking();
+
     handleVideoToggle() {
         this.setState(prevState => ({ videoActive: !prevState.videoActive }));
     }
 
     render() {
         // why pass a function through multiple layers when I can pass a button?
-        const videoToggle = <button type="button" onClick={this.handleVideoToggle}
+        const videoToggle = <button type="button" onMouseUp={this.handleVideoToggle}
             className={"mx-auto text-light btn " + (this.state.videoActive ? "btn-danger" : "btn-accent")}>
                 {this.state.videoActive ? "Hide" : "Show"} Video
             </button>;
