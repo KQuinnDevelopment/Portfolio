@@ -9,7 +9,7 @@ export function About() {
             <div className="row h-auto">
                 <div className="col-xl mx-auto">
                     <KQContainer customCss="bg-secondary">
-                        <p className="mt-0 p-0">I am a 29 year old transgender woman and junior software developer who recently graduated from Mohawk College in Hamilton, Ontario.</p>
+                        <p className="mt-0 p-0">I am a 31 year old transgender woman and junior software developer who recently graduated from Mohawk College in Hamilton, Ontario.</p>
                         <p className="p-0">I pride myself on my work ethic, professionalism, organization, and drive to learn and improve.</p>
                         <p className="mb-0 p-0">While in college, my focus was primarily on C-like languages (both Java and C#), with web development (ASP.NET, ReactJS, VueJS)
                             to round out my skillset.</p>

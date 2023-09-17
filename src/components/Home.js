@@ -26,7 +26,7 @@ export function Home() {
                 If anything on this site is unclear, or if you have any questions at all, do not hesitate to contact me on <a href="https://www.linkedin.com/in/karaquinnh/" target="_blank" rel="noreferrer">LinkedIn</a>.
                 Thank you for taking the time to look it over and for considering me as a potential hire.
             </p>
-            <p>My name should appear as Quinn Helm, or as my <a href="https://www.dictionary.com/e/pop-culture/deadname/" target="_blank" rel="noreferrer">deadname</a>, throughout the site.
+            <p>My name may appear differently, or as my <a href="https://www.dictionary.com/e/pop-culture/deadname/" target="_blank" rel="noreferrer">deadname</a>, throughout the site.
                That was how I presented myself during college but now that I've graduated, I am determined to be my more authentic self.</p>
         </div>
     );
