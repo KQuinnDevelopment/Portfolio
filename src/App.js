@@ -4,7 +4,6 @@ import { Container } from 'reactstrap';
 import { NavMenu } from './components/NavMenu';
 import { Home } from './components/Home';
 import { About } from './components/About';
-import { PageTracking } from './useTracking.js';
 
 const ReactProject = lazy(() => import('./components/projects/reactProject'));
 const MathematicsProject = lazy(() => import('./components/projects/mathematicsProject'));
